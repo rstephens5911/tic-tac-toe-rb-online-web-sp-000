@@ -52,7 +52,7 @@ def turn(board)
   # calls the input_to_index method
   index = input_to_index(input)
   # define token to current_player ("X" or "O"
-  token = current_player(board))
+  token = current_player(board)
   # validates the input correctly
   if valid_move?(board, index)
     # makes valid move
