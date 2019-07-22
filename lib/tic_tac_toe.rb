@@ -100,3 +100,9 @@ def full?(board)
     end
   end
 end
+
+def draw?(board)
+  if !won?(board) && full?(board)
+    true
+  end
+end
