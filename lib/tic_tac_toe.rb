@@ -80,3 +80,14 @@ def current_player(board)
   tally = turn_count(board)
   turn_count(board) % 2 == 0? "X" : "O"
 end
+
+def won?(board)
+  WIN_COMBINATIONS.each do |element|
+    pos1 = board[element[0]]
+    pos2 = board[element[1]]
+    pos3 = board[element[2]]
+    if (pos1 == "X" && pos2 == "X" && pos3 == "X") || (pos1 == "O" && pos2 == "O" && pos3 == "O")
+      return element
+    end
+  end
+  return false
