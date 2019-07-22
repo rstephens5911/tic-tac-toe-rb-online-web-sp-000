@@ -1,0 +1,35 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/kooky-form-5899/tic-tac-toe-rb-online-web-sp-000/lib/tic_tac_toe.rb": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        5,
+        5,
+        5,
+        5,
+        5,
+        null
+      ]
+    },
+    "timestamp": 1563814906
+  }
+}
