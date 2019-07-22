@@ -50,7 +50,7 @@ def turn(board)
   # gets the user input
   input = gets.strip
   # calls the input_to_index method
-  input_to_index(input)
+  index = input_to_index(input)
   # validates the input correctly
   if valid_move(board, index)
     # makes valid move
