@@ -52,7 +52,7 @@ def turn(board)
   # calls the input_to_index method
   index = input_to_index(input)
   # validates the input correctly
-  if valid_move(board, index)
+  if valid_move?(board, index)
     # makes valid move
     move(board, index, token)
   else
