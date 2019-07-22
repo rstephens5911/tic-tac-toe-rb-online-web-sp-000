@@ -116,3 +116,14 @@ def winner(board)
     return board[array[0]]
   end
 end
+
+def play(board)
+  until over?(board)
+    turn(board)
+  end
+  if won?(board)
+    puts "Congratulations #{winner(board)}!"
+  else 
+    puts "Draw"
+  end
+end
