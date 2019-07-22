@@ -62,4 +62,3 @@ def turn(board)
   # display a correct board after a valid turn
   display_board(board)
 end
-  
